@@ -8,7 +8,7 @@ namespace DAL.Interfaces
     {
         public interface FRepo<CLASS, ID>
         {
-            List<CLASS> FilterApp(string statuses);
+            List<CLASS> FilterItem(string status);
             
         }
 }
